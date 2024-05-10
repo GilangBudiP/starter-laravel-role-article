@@ -38,7 +38,7 @@ Instructions on how to use them in your own application are linked below.
 | Plugin | Link Docs |
 | ------ | ------ |
 | coderflexx/laravisit | [https://github.com/coderflexx/laravisit](https://github.com/coderflexx/laravisit) |
-| cviebrock/eloquent-sluggable |[https://github.com/cviebrock/eloquent-sluggable\](https://github.com/cviebrock/eloquent-sluggable) |
+| cviebrock/eloquent-sluggable |[https://github.com/cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable) |
 | ralphjsmit/laravel-seo | [https://github.com/ralphjsmit/laravel-seo](https://github.com/ralphjsmit/laravel-seo) |
 | spatie/laravel-medialibrary | [https://spatie.be/docs/laravel-medialibrary/v10/introduction](https://spatie.be/docs/laravel-medialibrary/v10/introduction) |
 | spatie/laravel-permission | [https://spatie.be/docs/laravel-permission/v6/introduction](https://spatie.be/docs/laravel-permission/v6/introduction) |
