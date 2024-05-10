@@ -1,3 +1,4 @@
+
 # Laravel
 
 A starter kit of laravel with some simple features
@@ -36,10 +37,10 @@ Instructions on how to use them in your own application are linked below.
 
 | Plugin | Link Docs |
 | ------ | ------ |
-| coderflexx/laravisit | [https://github.com/coderflexx/laravisit][PlGh] |
-| cviebrock/eloquent-sluggable | [https://github.com/cviebrock/eloquent-sluggable][PlGh] |
-| ralphjsmit/laravel-seo | [https://github.com/ralphjsmit/laravel-seo][PlGd] |
-| spatie/laravel-medialibrary | [https://spatie.be/docs/laravel-medialibrary/v10/introduction][PlGh] |
-| spatie/laravel-permission | [https://spatie.be/docs/laravel-permission/v6/introduction][PlGh] |
-| spatie/laravel-searchable | [https://github.com/spatie/laravel-searchable][PlGh] |
-| spatie/laravel-sitemap | [https://github.com/spatie/laravel-sitemap][PlGh] |
+| coderflexx/laravisit | [https://github.com/coderflexx/laravisit](https://github.com/coderflexx/laravisit) |
+| cviebrock/eloquent-sluggable |[https://github.com/cviebrock/eloquent-sluggable\](https://github.com/cviebrock/eloquent-sluggable) |
+| ralphjsmit/laravel-seo | [https://github.com/ralphjsmit/laravel-seo](https://github.com/ralphjsmit/laravel-seo) |
+| spatie/laravel-medialibrary | [https://spatie.be/docs/laravel-medialibrary/v10/introduction](https://spatie.be/docs/laravel-medialibrary/v10/introduction) |
+| spatie/laravel-permission | [https://spatie.be/docs/laravel-permission/v6/introduction](https://spatie.be/docs/laravel-permission/v6/introduction) |
+| spatie/laravel-searchable | [https://github.com/spatie/laravel-searchable](https://github.com/spatie/laravel-searchable) |
+| spatie/laravel-sitemap | [https://github.com/spatie/laravel-sitemap](https://github.com/spatie/laravel-sitemap) |
