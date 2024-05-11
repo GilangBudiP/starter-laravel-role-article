@@ -30,6 +30,11 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+link storage folder to public access
+```sh
+php artisan storage:link
+```
+
 ## Plugins
 
 starter-laravel-role-article is currently extended with the following plugins.
