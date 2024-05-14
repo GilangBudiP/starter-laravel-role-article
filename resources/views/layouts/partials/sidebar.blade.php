@@ -67,7 +67,7 @@
                 <div data-i18n="Analytics">Dashboard</div>
             </a>
         </li>
-        @can('articles.*','categories.*')
+        @can(['articles.read','categories.read'])
         <li class="menu-item {{ strpos(Route::currentRouteName(), 'admin.articles') === 0 || strpos(Route::currentRouteName(), 'admin.categories') === 0 ? 'active open' : '' }}"
             style="">
             <a href="#" class="menu-link menu-toggle">
@@ -94,7 +94,7 @@
             </ul>
         </li>
         @endcan
-        @can('users.*','permissions.*','roles.*')
+        @can(['users.read','permissions.read','roles.read'])
         <li class="menu-item {{ strpos(Route::currentRouteName(), 'admin.roles') === 0 || strpos(Route::currentRouteName(), 'admin.permissions') === 0 || strpos(Route::currentRouteName(), 'admin.users') === 0 ? 'active open' : '' }}"
             style="">
             <a href="#" class="menu-link menu-toggle">
@@ -122,7 +122,7 @@
             </ul>
         </li>
         @endcan
-        @can('galleries.read')
+        @can(['galleries.read'])
         <li class="menu-item {{ strpos(Route::currentRouteName(), 'admin.galleries') === 0 ? 'active' : '' }}">
             <a href="{{ route('admin.galleries.index') }}" class="menu-link">
                 <i class='menu-icon tf-icons bx bxs-image-add'></i>

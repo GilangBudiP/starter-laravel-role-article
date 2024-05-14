@@ -13,8 +13,8 @@ return [
          * `Spatie\Permission\Contracts\Permission` contract.
          */
 
-        'permission' => Spatie\Permission\Models\Permission::class,
-
+        // 'permission' => Spatie\Permission\Models\Permission::class,
+        'permission' => App\Models\Permission::class,
         /*
          * When using the "HasRoles" trait from this package, we need to know which
          * Eloquent model should be used to retrieve your roles. Of course, it
@@ -150,7 +150,7 @@ return [
      * See documentation to understand supported syntax.
      */
 
-    'enable_wildcard_permission' => false,
+    'enable_wildcard_permission' => true,
 
     /*
      * The class to use for interpreting wildcard permissions.

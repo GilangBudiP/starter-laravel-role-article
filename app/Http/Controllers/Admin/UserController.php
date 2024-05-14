@@ -33,12 +33,13 @@ class UserController extends Controller
     public function store(StoreUserRequest $request)
     {
         $this->authorize('users.create');
+
         $user = User::create($request->only('name','email','is_active')+['password' => bcrypt($request->password)]);
         if (!$request->has('status')) {
             $user->is_active = 1;
         }
-        // $role = Role::find($request->role);
-        $user->assignRole($request->role);
+        $role = Role::find($request->role);
+        $user->assignRole($role);
         return redirect()->back()->with('success', 'User created successfully');
     }
 
